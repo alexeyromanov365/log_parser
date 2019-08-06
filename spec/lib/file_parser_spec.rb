@@ -1,4 +1,6 @@
 require 'spec_helper'
+require 'file_parser'
+require 'line'
 
 RSpec.describe FileParser do
   let(:data) { ["/help_page/1 126.318.035.038\n", "/contact 184.123.665.067\n"] }
