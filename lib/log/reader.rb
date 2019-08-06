@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Log
   class Reader
     def initialize(path)

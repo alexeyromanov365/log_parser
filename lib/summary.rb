@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative 'log/reader'
 require_relative 'log/parser'
 require_relative 'calculator'

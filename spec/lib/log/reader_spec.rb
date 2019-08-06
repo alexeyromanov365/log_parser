@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'spec_helper'
 require 'log/reader'
 
@@ -14,4 +16,3 @@ RSpec.describe Log::Reader do
     end
   end
 end
-

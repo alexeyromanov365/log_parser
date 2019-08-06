@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Log
   class Line
     attr_reader :url, :ip

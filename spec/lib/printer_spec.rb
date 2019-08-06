@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'spec_helper'
 require 'printer'
 
@@ -11,13 +13,13 @@ RSpec.describe Printer do
 
   describe '#visit_count' do
     it 'returns url visits count' do
-      expect{subject.visit_count}.to output(visit_output).to_stdout
+      expect { subject.visit_count }.to output(visit_output).to_stdout
     end
   end
 
   describe '#uniq_visit_count' do
     it 'returns url with uniq visits count' do
-      expect{subject.uniq_visit_count}.to output(uniq_output).to_stdout
+      expect { subject.uniq_visit_count }.to output(uniq_output).to_stdout
     end
   end
 end

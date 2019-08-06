@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class Printer
   def initialize(lines)
     @lines = lines

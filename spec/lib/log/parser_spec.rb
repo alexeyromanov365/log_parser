@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'spec_helper'
 require 'log/parser'
 require 'log/line'
@@ -19,4 +21,3 @@ RSpec.describe Log::Parser do
     end
   end
 end
-
