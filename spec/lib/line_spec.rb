@@ -1,4 +1,5 @@
 require 'spec_helper'
+require 'line'
 
 RSpec.describe Line do
   let(:valid_line) { '/help_page/1 126.318.035.038' }
