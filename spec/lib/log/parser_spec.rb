@@ -1,8 +1,8 @@
 require 'spec_helper'
-require 'file_parser'
+require 'log/parser'
 require 'log/line'
 
-RSpec.describe FileParser do
+RSpec.describe Log::Parser do
   let(:data) { ["/help_page/1 126.318.035.038\n", "/contact 184.123.665.067\n"] }
 
   subject { described_class.new(data) }

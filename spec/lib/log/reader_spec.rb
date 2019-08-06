@@ -1,7 +1,7 @@
 require 'spec_helper'
-require 'file_reader'
+require 'log/reader'
 
-RSpec.describe FileReader do
+RSpec.describe Log::Reader do
   subject { described_class.new('spec/fixtures/test_file.log') }
 
   describe '#read' do

@@ -1,8 +1,8 @@
 require 'spec_helper'
-require 'file_validator'
+require 'log/validator'
 require 'log/line'
 
-RSpec.describe FileValidator do
+RSpec.describe Log::Validator do
   let(:invalid_line) { Log::Line.new('/help_page/1126.318.035.038') }
 
   describe '#validate' do
