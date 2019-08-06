@@ -11,7 +11,7 @@
 
 # Run script:
 Result: ruby parser.rb webserver.log\
-Tests: rspec -> Covered 100%
+Tests: rspec -> Coverage 100%
 
 # Result:
 Total visits:\
