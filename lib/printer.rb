@@ -4,12 +4,12 @@ class Printer
   end
 
   def visit_count
-    p 'Total visits:'
-    p @lines.map {|item| "#{item[0]} #{item[1]} visits\n"}
+    puts 'Total visits:'
+    @lines.map { |item| puts "#{item[0]} #{item[1]} visits" }
   end
 
   def uniq_visit_count
-    p 'Uniq visits:'
-    p @lines.map {|item| "#{item[0]} #{item[1]} uniq visits\n"}
+    puts 'Uniq visits:'
+    @lines.map { |item| puts "#{item[0]} #{item[1]} uniq visits" }
   end
 end
