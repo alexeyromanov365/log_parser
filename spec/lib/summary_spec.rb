@@ -2,7 +2,6 @@
 
 require 'spec_helper'
 require 'summary'
-require 'pry'
 
 RSpec.describe Summary do
   subject { described_class.new('spec/fixtures/test_file.log') }
