@@ -1,1 +1,1 @@
-ARGV.first
+filename = ARGV.first

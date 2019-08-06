@@ -8,13 +8,13 @@ RSpec.describe Printer do
 
   describe '#visit_count' do
     it 'returns url visits count' do
-      expect(subject.visit_count).to eq('/about/2 45 visits, /contact 32 visits')
+      expect(subject.visit_count).to eq(["/about/2 45 visits\n", "/contact 32 visits\n"])
     end
   end
 
   describe '#uniq_visit_count' do
     it 'returns url with uniq visits count' do
-      expect(subject.uniq_visit_count).to eq('/about/2 45 uniq visits, /contact 32 uniq visits')
+      expect(subject.uniq_visit_count).to eq(["/about/2 45 uniq visits\n", "/contact 32 uniq visits\n"])
     end
   end
 end
