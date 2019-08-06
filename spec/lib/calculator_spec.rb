@@ -1,5 +1,6 @@
 require 'spec_helper'
 require 'calculator'
+require 'log/line'
 
 RSpec.describe Calculator do
   let(:log_lines) do

@@ -1,7 +1,7 @@
 require 'spec_helper'
-require 'line'
+require 'log/line'
 
-RSpec.describe Line do
+RSpec.describe Log::Line do
   let(:valid_line) { '/help_page/1 126.318.035.038' }
   let(:invalid_line) { '/help_page/1126.318.035.038' }
 

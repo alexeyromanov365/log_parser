@@ -5,7 +5,7 @@ class FileParser
 
   def parse
     @data.map do |line|
-      Line.new(line)
+      Log::Line.new(line)
     end
   end
 end
